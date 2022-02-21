@@ -1,0 +1,828 @@
+
+/*---------------------------------------------------------------------------------------------- TOUT -----------------------------------------------------------------------------------------------------------------------------------*/
+#navbar
+{
+	color: white;
+	background-color: #111;
+	padding: 50px;
+	transition: 0.4s;
+	position: fixed;	
+	width: 100%;
+	top: 0;
+	z-index: 99;
+}
+
+/*---------------------------------------------------*/
+span:hover
+{
+	color: #F71818;
+}
+
+/*---------------------------------------------------*/
+#logo
+{
+	float: right;
+	font-size: 40px;
+	transition: 0.4s;
+}
+
+#titre
+{
+	text-align: center;
+	font-size: 35px;
+	transition: 0.4s;
+}
+
+/*---------------------------------------------------*/
+#page
+{
+	word-wrap: break-word;
+}
+
+/*---------------------------------------------------*/
+.sidenav
+{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  word-wrap: normal;
+}
+
+.sidenav a
+{
+  text-align: center;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover
+{
+  color: #F71818;
+  text-decoration: none;
+}
+
+.sidenav .closebtn
+{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+
+}
+
+/*---------------------------------------------------*/
+
+#main
+{
+  transition: margin-left .5s;
+}
+
+
+/*---------------------------------------------------------------------------------------------- INDEX.HTML ------------------------------------------------------------------------------------------------------------------------------*/
+#intro
+{
+	text-align: center;
+	background-color: white;
+	color: #111;
+	margin: auto;
+	margin-top: 100px;
+	width: 60%;
+	padding: 50px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#profil
+{
+	position: absolute;
+	text-align: left;
+	width: 270px;
+	transition: 0.4s;
+}
+
+#photo
+{
+	width: 270px;
+	height: 330px;
+	border-radius: 20px;
+	transition: 0.4s;
+}
+
+/*---------------------------------------------------*/
+.detail
+{
+	text-align: center;
+	margin-top: 60px;
+	display: inline-block;
+}
+
+.detail p
+{
+	color: black;
+}
+
+.detail b
+{
+	color: black;
+}
+
+
+.github
+{
+	width: 50px;
+}
+
+.linkedin
+{
+	width: 50px;
+}
+
+.buttongit
+{
+	border-radius: 20px;
+  background-color: white; 
+  color: black; 
+  border-style: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.buttonlinkedin
+{
+	border-radius: 20px;
+  background-color: white; 
+  color: black; 
+  border-style: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+/*---------------------------------------------------*/
+#cv
+{
+	text-align: center;
+	background-color: white;
+	margin: auto;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	width: 60%;
+	padding: 50px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cv p
+{
+	color: black;
+	text-align: left;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+#cv b
+{
+	color: black;
+}
+
+#cv h3
+{
+	margin-top: 20px;
+	margin-left: 20px;
+	text-align: left;
+}
+
+/*---------------------------------------------------*/
+#bts
+{
+	text-align: center;
+	background-color: white;
+	margin: auto;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	width: 100%;
+	/*padding: 50px;*/
+	border-radius: 20px;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+#bts div
+{
+	display: inline-block;
+	margin-right: 100px;
+	margin-left: 100px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+p1
+{
+	color: #F71818;
+}
+
+/*---------------------------------------------------*/
+.html5
+{
+	width: 100px;
+}
+
+.css3
+{
+	width: 100px;
+}
+
+.php
+{
+	width: 100px;
+}
+
+.C
+{
+	width: 100px;
+}
+
+.JS
+{
+	width: 100px;
+}
+
+.sql
+{
+	width: 100px;
+}
+
+.linux
+{
+	width: 100px;
+}
+
+.windows
+{
+	width: 100px;
+}
+
+.bdd
+{
+	width: 100px;
+}
+
+
+/*---------------------------------------------------*/
+.button
+{
+	border-radius: 20px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #F71818;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover
+{
+	background-color: #F71818;
+	color: white;
+}
+
+.button2
+{
+	border-radius: 20px;
+  background-color: #F71818;
+  color: white;
+  border: 2px solid #F71818;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2:hover
+{
+	background-color: white;
+	color: black;
+}
+
+/*---------------------------------------------------------------------------------------------- PARCOURS.HTML ---------------------------------------------------------------------------------------------------------------------------*/
+.button3
+{
+	border-radius: 20px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #F71818;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button3:hover
+{
+	background-color: #F71818;
+	color: white;
+}
+
+/*---------------------------------------------------*/
+#Titre
+{
+	transition: 0.4s;
+	text-align: center;
+	background-color: white;
+	color: #111;
+	margin: auto;
+	margin-top: 150px;
+	width: 100%;
+	padding: 50px;
+	box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*---------------------------------------------------*/
+.diplome
+{
+	color: #111;
+	float: left;
+	text-align: center;
+	background-color: white;
+	margin: auto;
+	margin-left: 80px;
+	margin-top: 100px;
+	margin-bottom: 150px;
+	width: 40%;
+	padding: 50px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.diplome h2
+{
+	padding-bottom: 50px;
+}
+
+
+/*---------------------------------------------------*/
+.diplome1
+{
+	padding-bottom: 50px;
+}
+
+.diplome1 i
+{
+	color: #F71818;
+}
+
+.diplome1 p
+{
+	font-size: 18.5px;
+}
+/*---------------------------------------------------*/
+.diplome2
+{
+	padding-bottom: 50px;
+}
+
+.diplome2 i
+{
+	color: #F71818;
+}
+
+.diplome2 p
+{
+	font-size: 18.5px;
+}
+/*---------------------------------------------------*/
+.diplome3
+{
+	padding-bottom: 50px;
+}
+
+.diplome3 i
+{
+	color: #F71818;
+}
+
+.diplome3 p
+{
+	font-size: 18.5px;
+}
+/*---------------------------------------------------*/
+.diplome4
+{
+	padding-bottom: 50px;
+}
+
+.diplome4 i
+{
+	color: #F71818;
+}
+
+.diplome4 p
+{
+	font-size: 18.5px;
+}
+
+/*---------------------------------------------------*/
+.stage01
+{
+	padding-bottom: 50px;
+}
+
+.stage01 i
+{
+	color: #F71818;
+}
+
+.stage01 p
+{
+	font-size: 18.5px;
+}
+
+.stage01 a
+{
+	color: #111;
+}
+
+.stage01 a:hover
+{
+	text-decoration: none;
+	color: #F71818;
+}
+/*---------------------------------------------------*/
+.stage02
+{
+	padding-bottom: 50px;
+}
+
+.stage02 i
+{
+	color: #F71818;
+}
+
+.stage02 p
+{
+	font-size: 18.5px;
+}
+
+.stage02 a
+{
+	color: #111;
+}
+
+.stage02 a:hover
+{
+	text-decoration: none;
+	color: #F71818;
+}
+/*---------------------------------------------------*/
+.stage03
+{
+	padding-bottom: 50px;
+}
+
+.stage03 i
+{
+	color: #F71818;
+}
+
+.stage03 p
+{
+	font-size: 18.5px;
+}
+
+.stage03 a
+{
+	color: #111;
+}
+
+.stage03 a:hover
+{
+	text-decoration: none;
+	color: #F71818;
+}
+/*---------------------------------------------------*/
+.stage04
+{
+	padding-bottom: 50px;
+}
+
+.stage04 i
+{
+	color: #F71818;
+}
+
+.stage04 p
+{
+	font-size: 18.5px;
+}
+/*---------------------------------------------------*/
+.stage05
+{
+	padding-bottom: 50px;
+}
+
+.stage05 i
+{
+	color: #F71818;
+}
+
+.stage05 p
+{
+	font-size: 18.5px;
+}
+
+/*---------------------------------------------------*/
+.diplome .diplome1
+{
+	padding-bottom: 93.5px;
+}
+/*---------------------------------------------------*/
+.diplome .diplome2
+{
+	padding-bottom: 93.5px;
+}
+/*---------------------------------------------------*/
+.diplome .diplome3
+{
+	padding-bottom: 93.5px;
+}
+/*---------------------------------------------------*/
+.diplome .diplome4
+{
+	padding-bottom: 93.5px;
+}
+/*---------------------------------------------------*/
+.diplome .stage01
+{
+	padding-bottom: 93.5px;
+}
+/*---------------------------------------------------*/
+.diplome .stage02
+{
+	padding-bottom: 93.5px;
+}
+/*---------------------------------------------------*/
+.diplome .stage03
+{
+	padding-bottom: 93.5px;
+}
+/*---------------------------------------------------*/
+.diplome .stage04
+{
+	padding-bottom: 93.5px;
+}
+/*---------------------------------------------------*/
+.diplome .stage05
+{
+	padding-bottom: 93.5px;
+}
+
+/*---------------------------------------------------*/
+.stage
+{
+	color: #111;
+	float: right;
+	text-align: center;
+	background-color: white;
+	margin: auto;
+	margin-right: 80px;
+	margin-top: 100px;
+	margin-bottom: 150px;
+	width: 40%;
+	padding: 50px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.stage h2
+{
+	padding-bottom: 50px;
+}
+
+
+.stage2
+{
+	display: inline-block;
+	text-align: center;
+	background-color: white;
+	margin-left: 300px;
+	margin-bottom: 150px;
+	width: 60%;
+	padding: 50px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.stage2 h2
+{
+	padding-bottom: 50px;
+}
+
+/*---------------------------------------------------*/
+.rapport p
+{
+	float: left;
+}
+
+.rapport a
+{
+	margin-left: 50px;
+}
+
+
+/*---------------------------------------------------------------------------------------------- VEILLE.HTML -----------------------------------------------------------------------------------------------------------------------------*/
+#veille1
+{
+	text-align: center;
+	background-color: white;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 150px;
+	width: 60%;
+	padding: 50px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#veille1 h2
+{
+	padding-bottom: 50px;
+}
+
+
+#veille1-suite
+{
+	text-align: center;
+	background-color: white;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 150px;
+	width: 100%;
+	padding: 50px;
+	border-radius: 20px;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+#veille1-suite h2
+{
+	padding-bottom: 50px;
+}
+
+
+#veille1-suite div
+{
+	display: inline-block;
+	margin: 70px;
+}
+
+#veille1-suite img
+{
+	transition: 0.4s;
+	width: 750px;
+}
+
+
+#veille2-suite
+{
+	text-align: center;
+	background-color: white;
+	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 20px;
+	width: 100%;
+	border-radius: 20px;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+#veille2-suite h2
+{
+	padding-bottom: 50px;
+}
+
+
+#veille2-suite div
+{
+	display: inline-block;
+}
+
+#veille2-suite img
+{
+	transition: 0.4s;
+	width: 750px;
+}
+
+
+
+.dropbtn
+{
+	border-radius: 20px;
+  background-color: white;
+  color: black;
+  border: 2px solid #F71818;
+  padding: 15px 32px;
+  margin-left: 40px;
+  margin-top: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus
+{
+	background-color: #F71818;
+	color: white;
+}
+
+.dropdown
+{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content
+{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  margin-left: 45px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a
+{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover
+{
+	background-color: #ddd;
+	text-decoration: none;
+	color: black;
+}
+
+.show
+{
+	display: block;
+}
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------- Stage.HTML ------------------------------------------------------------------------------------------------------------------------------*/
+.presentation
+{
+	margin-top: 50px;
+}
+
+.presentation h4
+{
+	float: left;
+}
+
+
+/*---------------------------------------------------------------------------------------------- VERSION MOBILE -------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-height: 450px)
+{
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>&emsp;PortFolio</title>
+	<link rel="stylesheet" type="text/css" href="site.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="sidenav.js"></script>
+	<script src="navbar.js"></script>
+	<script src="btndrop.js"></script>
+	<link rel="icon" href="quill.ico">
+
+
+</head>
+<body>
+
+	<div id="page">
+
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="index.html">Présentation</a>
+			<a href="parcours.html">Parcours</a>
+  			<!--<a href="competence.html">Compétences</a>-->
+  			<a href="veille.html">Veille</a>
+  			<a href="index.html#cv">Contact</a>
+  		</div>
+
+  		<div id="main">
+
+  			<div id="navbar">
+  				<a id="logo">Enzo Murru</a>
+  					<div id="navbar-left">
+  						<span style="font-size: 35px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+  					</div>
+  			</div>
+
+
+  			<div id="Titre">
+  				<a id="titre"><b>Ma <p1>Veille Technologique</p1></b></a>
+  			</div>
+
+
+  			
+  			<div class="dropdown">
+  				<button onclick="myFunction()" class="dropbtn">Cycles</button>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a href="veille.html">Cycle 1</a>
+    					<a href="veille2.html">Cycle 2</a>
+    					<a href="veille3.html">Cycle 3</a>
+  					</div>
+			</div>
+
+
+  			<div id="veille1">
+  				<h2><b>JetBrains : IDE DataScience </b></h2>
+  					<div>
+  						<p>
+  							Qu'est - ce que la <b><p1>Data Science</p1></b> ?
+  						</p>
+  					</div>
+  					<div>
+  						<p>
+							La DataScience (science des données), est une science qui regroupe 10 à 12 domaines et qui permet à une entreprise quel que soit la notoriété, d’<b><p1>explorer</p1></b> et d’<b><p1>analyser des données brutes</p1></b> (données non interprétées et non utilisables) afin de les analysées pour qu’elles deviennent alors utilisables. Netflix mines les données afin de <b><p1>définir un pattern de visionnage</p1></b> du contenu pour comprendre ce qui suscite l’intérêt des utilisateurs pour décider qu’elle série il doive produire.
+  					</div>
+  					<div>
+  						<p>
+  							L’éditeur de Logiciels JetBrains à récemment présenté son nouvel IDE pour les Data Scientific : <b><p1>DataSpell</p1></b>. Ce logiciel propose de l’analyse de données et du machine learning à l’état prototype (IA qui boost l’ordinateur).
+  						</p>
+  					</div>
+  					<div>
+  						<p>
+							Les différents langages pris en compte sont : Python (résultat en tps réel), JavaScript, outils de BDD SQL et différents plugins. Différents graphiques et statistiques avancées sont également disponible
+  						</p>
+  					</div>
+  			</div>
+
+  			<div id="veille1-suite">
+  				<div>
+  					<h3>Pyhton</h3>
+  					<img class="dataspell-py" src="dataspell-pyhton.png">
+  				</div>
+
+  				<div>
+  					<h3>Outils BDD</h3>
+  					<img class="dataspell-bdd" src="dataspell-BDD.png">
+  				</div>
+
+  				<div>
+  					<h3>Base de données SQL</h3>
+  					<img class="dataspell-sql" src="dataspell-sql.png">
+  				</div>
+
+  				<div>
+  					<h3>Graph et Statistiques Avancées</h3>
+  					<img class="dataspell-graph" src="dataspell-graph.png">
+  				</div>
+
+  			</div>
+
+  		</div>
+
+  	</div>
+
+
+</body>
+</html>
